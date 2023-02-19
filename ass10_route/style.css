@@ -1,0 +1,48 @@
+body{
+    background: #24353f;
+}
+h1 {
+    color: #17a2b8;
+}
+.test{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color: #ced4da;
+}
+input{
+    outline: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color: transparent;
+    color: white;
+}
+input:focus{
+    border-color: #17a2b8;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+.button{
+    border: 1px solid orange;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(255,255,255,.5);
+}
+.button:hover{
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+}
+.navbar-brand:hover{
+    text-decoration: none;
+}
